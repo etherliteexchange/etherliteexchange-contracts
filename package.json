@@ -1,0 +1,25 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/register": "^7.14.5",
+    "@ethersproject/solidity": "^5.4.0",
+    "@openzeppelin/contracts": "^2.5.1",
+    "@truffle/hdwallet-provider": "^1.4.1",
+    "@uniswap/v2-core": "^1.0.1",
+    "web3": "^1.4.0"
+  }
+}
